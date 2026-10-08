@@ -7,6 +7,7 @@ st.set_page_config(page_title="🔤 English Grammar Trainer", page_icon="🔤", 
 
 GRAMMAR_EXERCISES = {
     "Look and Write: 看圖寫作": {
+        "date": "2026-10-06",
         "description": "觀看圖片並寫出完整句子，每句不少於5個字",
         "questions": [
             {
@@ -42,6 +43,7 @@ GRAMMAR_EXERCISES = {
         ]
     },
     "Grammar 1: so (原因和結果)": {
+        "date": "2026-09-20",
         "description": "使用 so 連接原因和結果句子",
         "questions": [
             {
@@ -71,6 +73,7 @@ GRAMMAR_EXERCISES = {
         ]
     },
     "Grammar 2: who / which (關係代詞)": {
+        "date": "2026-09-20",
         "description": "使用 who 指人，使用 which 指物或動物",
         "questions": [
             {
@@ -100,6 +103,7 @@ GRAMMAR_EXERCISES = {
         ]
     },
     "Connectives: so / so that / because": {
+        "date": "2026-09-20",
         "description": "分辨 so (結果), so that (目的), because (原因) 的用法",
         "questions": [
             {
@@ -123,6 +127,7 @@ GRAMMAR_EXERCISES = {
         ]
     },
     "Adverbs: 副詞 (方式 + 頻率)": {
+        "date": "2026-10-06",
         "description": "學習方式副詞 (how) 和頻率副詞 (how often)",
         "questions": [
             {
@@ -156,10 +161,15 @@ GRAMMAR_EXERCISES = {
 st.title("🔤 English Grammar Trainer")
 st.markdown("### 分主題練習 — 選擇一個主題開始！")
 
-# 選擇練習主題
+# 選擇練習主題（顯示日期）
+def format_topic(topic):
+    data = GRAMMAR_EXERCISES[topic]
+    return f"{topic} ({data['date']})"
+
 selected_topic = st.selectbox(
     "選擇練習主題：",
-    list(GRAMMAR_EXERCISES.keys())
+    list(GRAMMAR_EXERCISES.keys()),
+    format_func=format_topic
 )
 
 if selected_topic:
