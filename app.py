@@ -126,6 +126,60 @@ GRAMMAR_EXERCISES = {
             }
         ]
     },
+    "Unit 3: Environmental Protection - Adverbs of Manner": {
+        "date": "2026-10-08",
+        "description": "Unit 3 環境保護 — 方式副詞 (Adverbs of Manner)",
+        "questions": [
+            {
+                "question": "The students should listen to the teacher ______.",
+                "hint": "將形容詞 careful 變成副詞 carefully",
+                "answer": "carefully",
+                "explanation": "形容詞 → 副詞：careful + ly = carefully (小心地)"
+            },
+            {
+                "question": "Please ______ turn off the lights when you leave the room.",
+                "hint": "將形容詞 careful 變成副詞 carefully",
+                "answer": "carefully",
+                "explanation": "修飾動詞 turn off 需要用副詞 carefully"
+            },
+            {
+                "question": "The children played ______ in the playground.",
+                "hint": "將形容詞 happy 變成副詞 happily",
+                "answer": "happily",
+                "explanation": "形容詞 → 副詞：happy → happily (快樂地)"
+            },
+            {
+                "question": "We must throw the rubbish ______.",
+                "hint": "將形容詞 proper 變成副詞 properly",
+                "answer": "properly",
+                "explanation": "形容詞 → 副詞：proper + ly = properly (正確地)"
+            },
+            {
+                "question": "Please read the passage ______.",
+                "hint": "將形容詞 careful 變成副詞 carefully",
+                "answer": "carefully",
+                "explanation": "修飾動詞 read 需要用副詞 carefully (仔細地)"
+            },
+            {
+                "question": "The turtle walks ______.",
+                "hint": "將形容詞 slow 變成副詞 slowly",
+                "answer": "slowly",
+                "explanation": "形容詞 → 副詞：slow + ly = slowly (慢地)"
+            },
+            {
+                "question": "The students sit ______ in the library.",
+                "hint": "將形容詞 quiet 變成副詞 quietly",
+                "answer": "quietly",
+                "explanation": "形容詞 → 副詞：quiet + ly = quietly (安靜地)"
+            },
+            {
+                "question": "Do not speak ______ in the hospital.",
+                "hint": "將形容詞 loud 變成副詞 loudly",
+                "answer": "loudly",
+                "explanation": "形容詞 → 副詞：loud + ly = loudly (大聲地)"
+            }
+        ]
+    },
     "Adverbs: 副詞 (方式 + 頻率)": {
         "date": "2026-10-06",
         "description": "學習方式副詞 (how) 和頻率副詞 (how often)",
